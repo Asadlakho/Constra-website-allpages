@@ -6,7 +6,7 @@
 body {
   font-family: "Figtree", sans-serif;
   font-optical-sizing: auto;
-  
+    
   font-style: normal;
 }
 
@@ -339,3 +339,348 @@ body {
     font-size: 0.9rem;
   }
 }
+/*Responsive */
+@media (max-width: 991.98px) {
+  .logo img {
+    margin-right: 0 !important;
+  }
+
+  .header-right ul {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .call-to-action-btn {
+    margin-top: 15px;
+  }
+
+  .carousel-caption h1,
+  .carousel-caption h3,
+  .carousel-caption p {
+    font-size: 1.2rem;
+  }
+
+  .carousel-caption .btn {
+    padding: 8px 16px !important;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .testimonial-section {
+    padding: 40px 10px;
+  }
+
+  .carousel-caption {
+    bottom: 20% !important;
+  }
+
+  .carousel-caption h1,
+  .carousel-caption h3 {
+    font-size: 1rem;
+  }
+
+  .carousel-caption p {
+    font-size: 0.85rem;
+  }
+
+  .btn {
+    font-size: 0.9rem;
+  }
+
+  .navbar .nav-link {
+    font-size: 1rem !important;
+    text-align: center;
+  }
+
+  .filter-btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .project-title {
+    font-size: 0.9rem;
+  }
+
+  .footer-top h6 {
+    font-size: 1rem;
+  }
+
+  .footer-services li {
+    font-size: 0.85rem;
+  }
+
+  .footer-bottom {
+    text-align: center;
+  }
+
+  .footer-bottom a {
+    display: inline-block;
+    margin-top: 5px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .carousel-caption {
+    bottom: 15% !important;
+  }
+
+  .carousel-caption h1 {
+    font-size: 1rem;
+  }
+
+  .carousel-caption .btn {
+    margin: 4px;
+    font-size: 0.8rem;
+  }
+
+  .newsletter-signup input {
+    width: 100% !important;
+    margin-bottom: 10px;
+  }
+
+  .col-md-4.mb-4 img {
+    height: auto;
+  }
+
+  .testimonial-text {
+    font-size: 0.9rem;
+  }
+
+  .client-img {
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-right ul {
+    flex-direction: column !important;
+    align-items: center !important;
+    gap: 1rem !important;
+  }
+  .logo {
+    text-align: center;
+  }
+}
+
+/* === Navigation === */
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    text-align: center;
+  }
+  .navbar-nav .nav-link {
+    display: block;
+    padding: 10px 0;
+  }
+}
+
+/* === Hero Section & Carousel === */
+@media (max-width: 767.98px) {
+  .carousel-caption h1,
+  .carousel-caption h3 {
+    font-size: 1.2rem;
+  }
+  .carousel-caption p {
+    font-size: 0.9rem;
+  }
+  .carousel-caption .btn {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+}
+
+/* === Call To Action Bar === */
+@media (max-width: 768px) {
+  section.custom-responsive-section {
+    width: 100% !important;
+    margin: 0 !important;
+    height: auto !important;
+    text-align: center;
+  }
+  .action-title {
+    margin: 0 auto !important;
+    font-size: 1.1rem !important;
+  }
+  .call-to-action-btn {
+    margin-top: 10px;
+  }
+}
+
+/* === About & Services Section === */
+@media (max-width: 768px) {
+  .ts-service-box {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .ts-service-box .ts-service-box-content {
+    margin-left: 0 !important;
+  }
+}
+
+/* === Our Values Accordion === */
+@media (max-width: 575.98px) {
+  #our-values-accordion .btn {
+    font-size: 0.9rem;
+    padding: 0.75rem;
+  }
+  .card-body {
+    font-size: 0.85rem;
+  }
+}
+
+/* === Project Section Grid === */
+@media (max-width: 767.98px) {
+  .project-title {
+    font-size: 0.95rem;
+  }
+  .filter-btn {
+    font-size: 0.85rem;
+    padding: 6px 12px;
+  }
+}
+
+/* === Testimonials === */
+@media (max-width: 768px) {
+  .testimonial-text {
+    font-size: 0.9rem;
+  }
+}
+
+/*  Footer Responsive  */
+@media (max-width: 767.98px) {
+  .footer-top .col-md-4 {
+    text-align: center;
+  }
+  .footer-bottom {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  .footer-bottom a {
+    display: block;
+    margin: 5px 0;
+  }
+}
+
+/* === Newsletter & Help Section === */
+@media (max-width: 768px) {
+  .newsletter-signup input {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  .newsletter-signup,
+  .can-we-help {
+    text-align: center;
+  }
+  .can-we-help .fw-bold {
+    margin-left: 0 !important;
+  }
+}
+/* === General Utility Adjustments === */
+@media (max-width: 576px) {
+  .fs-1 {
+    font-size: 1.75rem !important;
+  }
+  .fs-2 {
+    font-size: 1.5rem !important;
+  }
+  .fs-3 {
+    font-size: 1.25rem !important;
+  }
+  h1, h2, h3, h4, h5 {
+    text-align: center !important;
+  }
+  .text-lg-left, .text-md-left {
+    text-align: center !important;
+  }
+}
+.team-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.team-card:hover {
+  transform: scale(1.02);
+}
+
+.team-card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.team-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-hover-extra {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-card:hover .team-hover-extra {
+  opacity: 1;
+  max-height: 100px;
+  margin-top: 10px;
+}
+.navbar-nav .nav-link {
+  color: black;
+}
+
+/* Mobile screen pe toggle open hone par background black aur links white */
+@media (max-width: 991.98px) {
+  /* Navbar collapse area background black */
+  #navbarContent.show {
+    background-color: black;
+    padding: 15px 10px;
+    border-radius: 5px;
+  }
+
+  /* Links color white in collapsed menu */
+  #navbarContent.show .nav-link {
+    color: white !important;
+  }
+
+  /* Dropdown menu background black */
+  #navbarContent.show .dropdown-menu {
+    background-color: black;
+  }
+
+  /* Dropdown items white */
+  #navbarContent.show .dropdown-menu .dropdown-item {
+    color: black;
+  }
+
+  /* Dropdown items hover */
+  #navbarContent.show .dropdown-menu .dropdown-item:hover {
+    background-color: #333;
+    color: white;
+  }
+}
+
+/* Align toggle button to right on mobile */
+@media (max-width: 991.98px) {
+  .navbar-toggler {
+    margin-left: auto;
+    border-color: black;
+  }
+  .navbar .dropdown-menu .dropdown-item {
+    color: white !important;
+    background-color: #212529 !important; /* match bg-dark */
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: #343a40 !important;
+}
+}
+
+
+/*Thankyou */
